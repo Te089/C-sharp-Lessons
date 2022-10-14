@@ -7,3 +7,13 @@
 
 string[] massive = { "hello", "2", "world", "heh" };
 
+void PrintArray(string[] massive)
+{
+    for (int i = 0; i < massive.Length; i++)
+    {
+        Console.Write($"{massive[i]};  ");
+    }
+    Console.WriteLine();
+}
+
+PrintArray(massive);
