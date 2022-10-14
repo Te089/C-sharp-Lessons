@@ -17,3 +17,16 @@ void PrintArray(string[] massive)
 }
 
 PrintArray(massive);
+
+void PrintNewArray(string[] massive)
+{
+    for (int i = 0; i < massive.Length; i++)
+    {
+        if (massive[i].Length <= 3)
+        {
+            Console.Write($"{massive[i]};  ");
+        }
+    }
+}
+
+PrintNewArray(massive);
